@@ -1,0 +1,152 @@
+header {
+  display: flex;
+  background: linear-gradient(90deg, #0084CF -3.19%, #01B2AC 106.78%);
+  align-items: center;
+}
+
+header img {
+  width: 280px;
+}
+
+.abas {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.abas button {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  padding: 31px 0px;
+  width: 430px;
+}
+
+.aba.selecionada {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.content.selecionada {
+  padding: 16px;
+  min-height: 260px;
+  display: block;
+}
+
+.content {
+  padding: 16px;
+  min-height: 260px;
+  display: none;
+}
+
+header img {
+  margin-left: 103px;
+}
+
+.bar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 0;
+  width: 324px;
+  background: #0084CF;
+}
+
+.bar img {
+  width: 30px;
+  padding: 8px;
+}
+
+.bar button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 21px 28px;
+  height: 88px;
+  background: #0084CF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 25px;
+  border: none;
+  color: #ffffffff;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  cursor: pointer;
+  width: 324px;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.bar button:hover,
+.abas button:hover {
+  cursor: pointer;
+  transition: ease-in 0.2s;
+  background-color: rgba(1, 113, 184, 1);
+}
+
+.meio {
+  display: flex;
+}
+
+.container {
+  padding: 80px;
+}
+
+main {
+  position: absolute;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+footer {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(1, 113, 184, 1);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contatos {
+  display: flex;
+  align-items: center;
+  background-color: #0084CF;
+  width: 100vw;
+  justify-content: center;
+}
+
+.redes {
+  display: flex;
+  position: absolute;
+  right: 0;
+  align-items: center;
+  padding-right: 120px;
+}
+
+.contatos img {
+  padding: 16px;
+  width: 220px;
+}
+
+.redes img {
+  width: 48px;
+}
+
+.redes a {
+  padding-left: 16px;
+}

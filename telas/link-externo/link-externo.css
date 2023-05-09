@@ -1,0 +1,76 @@
+body {
+  background-image: url(../../assets/CBLoL-2023-5.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  height: 100vh;
+  color: #ffffff;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 362px;
+  margin-left: 283px;
+  margin-top: 200px;
+}
+
+.carinha {
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 115px;
+  letter-spacing: 0.1em;
+  padding: 0px;
+  margin: 0px 0px 16px;
+}
+
+.titulo {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: 0.1em;
+  padding: 0px;
+  margin: 0px 0px 16px;
+}
+
+.info {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  padding: 0px;
+  margin: 0px 0px 16px;
+}
+
+.voltar {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 38px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  width: 299px;
+  background: #AB78F7;
+  box-shadow: 1px 1px 15px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 40px;
+  padding: 27px;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.voltar:hover {
+  cursor: pointer;
+  transition: ease-in 0.2s;
+  background-color: #AB78a7;
+}
